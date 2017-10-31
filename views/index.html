@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="/style.css">
+	<title>Timestamp Microservice</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Timestamp Microservice</h1>
+		<section>
+			<h2>User stories:</h2>
+			<ul>
+				<li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+				<li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+				<li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+			</ul>	
+		</section>
+		
+		<section>
+			<h2>Example usage:</h2>
+			<a href="https://even-cap.glitch.me/December%2015,%202015">https://even-cap.glitch.me/December%2015,%202015</a>
+			<a href="https://even-cap.glitch.me/1450137600">https://even-cap.glitch.me/1450137600</a>
+		</section>
+
+		<section>
+			<h2>Example output:</h2>
+			<p>{ "unix": 1450137600, "natural": "December 15, 2015" }</p>
+		</section>		
+	</div>	
+</body>
+</html>
