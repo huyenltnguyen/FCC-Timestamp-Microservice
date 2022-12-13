@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/huyenltnguyen/FCC-Timestamp-Microservice#readme",
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "moment": "^2.19.1"
   },
   "devDependencies": {
